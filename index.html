@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>谈古论今直播间</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="left-part">
+				<!--登录注册部分-->
+				<div class="loginWrap">
+					<h1><img src="img/tangulunjin.png"/></h1>
+					<dl>
+						<dt><img src="img/touxiangyi.png"/></dt>
+						<dd>
+							<p>昵称：<span>余越 </span></p>
+							<p>等级：<span>导师 </span></p>
+						</dd>
+					</dl>
+					<h2>
+						<button onclick="showLogin()">登录</button>
+						<button onclick="showRegister()">注册</button>
+						<button style="display: none;">退出</button>
+					</h2>
+				</div>
+				<!--登录注册部分 End-->
+				<!--功能列表-->
+				<div class="funtionList">
+					<dl class="course" onclick="showSchedule()">
+						<dt></dt>
+						<dd>直播课程</dd>
+					</dl>
+					<dl class="service" onclick="surcive()">
+						<dt></dt>
+						<dd>VIP服务</dd>
+					</dl>
+					<dl class="oaa" onclick="showEarnMoney()">
+						<dt></dt>
+						<dd>开户挣钱</dd>
+					</dl>
+					<dl class="market" onclick="showMarketSoft()">
+						<dt></dt>
+						<dd>行情软件</dd>
+					</dl>					
+				</div>
+				<!--功能列表 End-->
+				<!--扫一扫-->
+				<div class="shaoshao">
+					<img src="img/shaoshao.jpg"/>
+					<p>扫一扫  手机也能看直播哦</p>
+				</div>
+				<!--扫一扫 End-->
+				<!--在线成员-->
+				<div class="online">
+					<h1><span>在线人员</span><span class="accout">1236人</span></h1>
+					<div class="participentsWrap">
+						<ul class="participents">
+							<li><span class="participentName">老师：余越</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">助理：富贵神仙手</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">貔貅送金</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">天道酬勤</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">游客333</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">游客333</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">游客333</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">游客333</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">游客333</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+							<li><span class="participentName">游客333</span><img class="participentImg" src="img/touxiangyi.png"/></li>
+						</ul>
+					</div>
+				</div>
+				<!--在线成员 End-->
+			</div>
+			<div class="main">
+				<p class="mainTop">
+					<a href="" class="download">客户端下载</a>
+					<a class="phone">客服热线：400-181-2886</a>
+					<a href="" class="qq"><span>股票投资助理</span></a>
+					<a href="" class="qq"><span>黄金投资助理</span></a>
+				</p>
+				<div class="mainLeft">
+					<p class="vedioBar">
+						<span class="spzb">视频直播</span>
+						<span class="clip">黑屏或者卡顿请 </span>
+						<span class="refresh"><a href="">点击刷新</a></span>
+					</p>
+					<p class="vedioWrap"><img src="img/001.gif"/>
+						<!--<object id="wblive" name="wblive" align="middle"  type="application/x-shockwave-flash" data="http://static.99ducaijing.com/Components/wblive.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><param name="allowscriptaccess" value="always"><param name="allowfullscreen" value="true"><param name="hasPriority" value="true"><param name="wmode" value="Opaque"><param name="swliveconnect" value="true"><param name="flashvars" value="teacher=0&amp;kid=80019&amp;subid=80028&amp;ui1=1&amp;rtmpip=pull.99ducaijing.cn&amp;kname=股票学堂&amp;teachername=梦婷"></object>-->
+					</p>
+					<div class="inform">
+						<p class="informTilte">
+							<span class="span_active">即时公告</span>
+							<span>导师观点</span>
+							<span>直播间声明 </span>
+						</p>
+						<div class="informCont">
+							<!--即时公告-->
+							<ul class="informContUl">
+								<li>
+									<dl>
+										<dt><img src="img/touxiangyi.png"/></dt>
+										<dd>
+											<h2><span class="inform-name">助理：富贵神仙手</span><span class="inform-date">2016-04-12【15:33】</span><span class="inform-close"></span></h2>
+											<p class="inform-message">
+												今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652
+											</p>											
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><img src="img/touxiangyi.png"/></dt>
+										<dd>
+											<h2><span class="inform-name">助理：富贵神仙手</span><span class="inform-date">2016-04-12【15:33】</span><span class="inform-close"></span></h2>
+											<p class="inform-message">
+												今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652
+											</p>											
+										</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt><img src="img/touxiangyi.png"/></dt>
+										<dd>
+											<h2><span class="inform-name">助理：富贵神仙手</span><span class="inform-date">2016-04-12【15:33】</span><span class="inform-close"></span></h2>
+											<p class="inform-message">
+												今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652今天麦田老师顺势而为，在21：05给出长安PP652
+											</p>											
+										</dd>
+									</dl>
+								</li>	
+								<li>
+									<dl>
+										<dt><img src="img/touxiangyi.png"/></dt>
+										<dd>
+											<h2><span class="inform-name">助理：富贵神仙手</span><span class="inform-date">2016-04-12【15:33】</span><span class="inform-close"></span></h2>
+											<p class="inform-message">
+												今天麦田老师顺势而为，今天麦田老师顺势而为，在21：05
+											</p>											
+										</dd>
+									</dl>
+								</li>									
+							</ul>
+							<!--即时公告 End-->
+							<!--导师观点-->
+							<div class="mentorView" style="display: none;">
+								<dl>
+									<dt><img src="img/shaoshao2.jpg"/></dt>
+									<dd>
+										<h1>余越老师</h1>
+										<h2><span class="mentorViewname">资深黄金投资分析师</span><span class="mentorViewdate">2016-04-18【15:34】</span></h2>
+										<p class="mentorViewmessage"><span>今晚数据利空，但是欧美休市，市场上反应不明显，建议好好过周末，今天就不建仓了。</span><img class="mentorViewclosed" src="img/closed.png" /></p>
+									</dd>
+								</dl>
+							</div>
+							<!--导师观点 End-->
+							<!--直播间声明-->
+							<div class="state" style="display: none;">
+								<h1>直播间发表观点和言论仅供参考，投资有风险，入市需谨慎。</h1>
+								<p>1、本直播室严禁代客理财，所有的【开户】和【交易】应由您自行完成；</p>
+								<p>2、注意定期修改您的密码（交易密码、资金密码），保证您的账户安全；</p>
+								<p>3、注意定期修改您的密码（交易密码、资金密码），保证您的账户安全；</p>
+								<p>4、注意定期修改您的密码（交易密码、资金密码），保证您的账户安全；</p>
+							</div>
+							<!--直播间声明End-->
+						</div>
+					</div>
+				</div>
+				<div class="mainRight">
+					<!--聊天室-->
+					<p class="chatBar"><span>聊天室</span></p>
+					<div class="chatRoom">
+						<ul class="chatRomUl">
+							<li>
+								<dl>
+									<dt><img src="img/touxiangyi.png"/></dt>
+									<dd>
+										<h2>
+											<span class="chartname" onclick="showSayToHim(event,this)"><a>助理：富贵神仙手</a><div class="remind"><div class="remindCont"><a onclick="sayToHim(event,this)">对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span>
+											<span class="chartdate">2016-04-12【15:33】</span>
+										</h2>
+										<p class="chartmessage"><span style="color: #000000; font-size: 13px; line-height: 20px;">今晚数据利，建议好好过周末，今天就不建仓了。今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末今天就不建仓了</span></p>
+									</dd>
+								</dl>
+							</li>
+						
+							<li>
+								<dl>
+									<dt><img src="img/touxiangyi.png"/></dt>
+									<dd>
+										<h2>
+											<span class="chartname" onclick="showSayToHim(event,this)"><a>助理：富贵神仙手</a><div class="remind"><div class="remindCont"><a>对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span>
+											<span class="chartdate">2016-04-12【15:33】</span>
+										</h2>
+										<p class="chartmessage"><span class="chartSpan" style="color: #000000; font-size: 13px; line-height: 20px;">今晚数据利，建议好好过周末，今天就不建仓了。今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末今天就不建仓了</span></p>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><img src="img/touxiangyi.png"/></dt>
+									<dd>
+										<h2>
+											<span class="chartname"><a>助理：富贵神仙手</a><div class="remind"><div class="remindCont"><a>对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span>
+											<span class="chartdate">2016-04-12【15:33】</span>
+										</h2>
+										<p class="chartmessage"><span class="chartSpan" style="color: #000000; font-size: 13px; line-height: 20px;">今晚数据利，建议好好过周末，今天就不建仓了。今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末今天就不建仓了</span></p>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><img src="img/touxiangyi.png"/></dt>
+									<dd>
+										<h2>
+											<span class="chartname">助理：富贵神仙手<div class="remind"><div class="remindCont"><a>对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span>
+											<span class="chartdate">2016-04-12【15:33】</span>
+										</h2>
+										<p class="chartmessage"><span class="chartSpan" style="color: #000000; font-size: 13px; line-height: 20px;">今晚数据利，建议好好过周末，今天就不建仓了。今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末今天就不建仓了</span></p>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<dl>
+									<dt><img src="img/touxiangyi.png"/></dt>
+									<dd>
+										<h2><span class="chartname">助理：富贵神仙手<div class="remind"><div class="remindCont"><a>对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span>
+											<span class="dui">对</span><span class="chartname2">游客3333<div class="remind"><div class="remindCont"><a>对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span><span class="chartdate">2016-04-12【15:33】</span>
+										</h2>
+										<p class="chartmessage"><span style="color: #000000; font-size: 13px; line-height: 20px;">今晚数据利，建议好好过周末，今天就不建仓了。今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末今天就不建仓</span></p>
+									</dd>
+								</dl>
+							</li>								
+							<li>
+								<dl>
+									<dt><img src="img/touxiangyi.png"/></dt>
+									<dd>
+										<h2>
+											<span class="chartname">助理：富贵神仙手<div class="remind"><div class="remindCont"><a>对他说</a><a class="stop">禁言TA+删除言论</a></div></div></span>
+											<span class="chartdate">2016-04-12【15:33】</span>
+										</h2>
+										<p class="chartmessage"><span class="chartSpan" style="color: #000000; font-size: 13px; line-height: 20px;">今晚数据利，建议好好过周末，今天就不建仓了。今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末，今天就不建仓了今晚数据利，建议好好过周末今天就不建仓了</span></p>
+									</dd>
+								</dl>
+							</li>							
+						</ul>
+					</div>
+					<!--聊天室 End-->
+					<!--输入框-->
+					<div class="inputBox">
+						<div class="writeDiv">
+							<div class="writeInput">
+								<textarea name=""></textarea>
+							</div>
+							<a class="send" onclick="sendMessageFn()">发送</a>
+						</div>	
+						<div class="controlDiv" style="display: none;">
+							<p><a onclick="changeFunFn(0)"><span>即时公告</span></a><a onclick="changeFunFn(1)"><span>导师观点</span></a><a class="a_active" onclick="changeFunFn(2)"><span class="span_active2" >聊天室</span></a></p>
+						</div>
+						<p class="zhuli">
+							<a href=""><span>股票投资助理</span></a>
+							<a href=""><span>黄金投资助理</span></a>
+						</p>						
+						<div class="functionDiv">
+							<span class="sendFace">
+								发表情
+								<div class="faceWrap">
+									<ul class="faceBox">
+										<li><img src="img/face/【df爱情】.gif" title="【df爱情】" isface="1"></li>
+										<li><img src="img/face/【df包裹】.gif" title="【df包裹】" isface="1"></li>
+										<li><img src="img/face/【df鼓掌】.gif" title="【df鼓掌】" isface="1"></li>
+										<li><img src="img/face/【df口红】.gif" title="【df口红】" isface="1"></li>
+										<li><img src="img/face/【df爱心】.gif" title="【df爱心】" isface="1"></li>
+										<li><img src="img/face/【df啤酒】.gif" title="【df啤酒】" isface="1"></li>
+										<li><img src="img/face/【df巧克力】.gif" title="【df巧克力】" isface="1"></li>
+										<li><img src="img/face/【df汽球】.gif" title="【df汽球】" isface="1"></li>
+										<li><img src="img/face/【df亲吻】.gif" title="【df亲吻】" isface="1"></li>
+										<li><img src="img/face/【df亲嘴】.gif" title="【df亲嘴】" isface="1"></li>
+										<li><img src="img/face/【df萝莉】.gif" title="【df萝莉】" isface="1"></li>
+										<li><img src="img/face/【df帅公子】.gif" title="【df帅公子】" isface="1"></li>
+										<li><img src="img/face/【df抱抱熊】.gif" title="【df抱抱熊】" isface="1"></li>
+										<li><img src="img/face/【df糖果】.gif" title="【df糖果】" isface="1"></li>
+										<li><img src="img/face/【df威五】.gif" title="【df威五】" isface="1"></li>
+										<li><img src="img/face/【df棉花糖】.gif" title="【df棉花糖】" isface="1"></li>
+										<li><img src="img/face/【df妖姬】.gif" title="【df妖姬】" isface="1"></li>
+										<li><img src="img/face/【df项链】.gif" title="【df项链】" isface="1"></li>
+										<li><img src="img/face/【df仙女棒】.gif" title="【df仙女棒】" isface="1"></li>
+										<li><img src="img/face/【df香水】.gif" title="【df香水】" isface="1"></li>
+										<li><img src="img/face/【df真棒】.gif" title="【df真棒】" isface="1"></li>
+										<li><img src="img/face/【df钻戒】.gif" title="【df钻戒】" isface="1"></li>
+										<li><img src="img/face/【df做朋友】.png" title="【df做朋友】" isface="1"></li>
+										<li><img src="img/face/【df给力】.gif" title="【df给力】" isface="1"></li>
+										<li><img src="img/face/【df围观】.gif" title="【df围观】" isface="1"></li>
+										<li><img src="img/face/【df威武】.gif" title="【df威武】" isface="1"></li>
+										<li><img src="img/face/【df呵呵】.gif" title="【df呵呵】" isface="1"></li>
+										<li><img src="img/face/【df嘻嘻】.gif" title="【df嘻嘻】" isface="1"></li>
+										<li><img src="img/face/【df哈哈】.gif" title="【df哈哈】" isface="1"></li>
+										<li><img src="img/face/【df可爱】.gif" title="【df可爱】" isface="1"></li>
+										<li><img src="img/face/【df可怜】.gif" title="【df可怜】" isface="1"></li>
+										<li><img src="img/face/【df挖鼻屎】.gif" title="【df挖鼻屎】" isface="1"></li>
+										<li><img src="img/face/【df吃惊】.gif" title="【df吃惊】" isface="1"></li>
+										<li><img src="img/face/【df害羞】.gif" title="【df害羞】" isface="1"></li>
+										<li><img src="img/face/【df挤眼】.gif" title="【df挤眼】" isface="1"></li>
+										<li><img src="img/face/【df闭嘴】.gif" title="【df闭嘴】" isface="1"></li>
+										<li><img src="img/face/【df鄙视】.gif" title="【df鄙视】" isface="1"></li>
+										<li><img src="img/face/【df爱你】.gif" title="【df爱你】" isface="1"></li>
+										<li><img src="img/face/【df泪】.gif" title="【df泪】" isface="1"></li>
+										<li><img src="img/face/【df偷笑】.gif" title="【df偷笑】" isface="1"></li>
+										<li><img src="img/face/【df亲亲】.gif" title="【df亲亲】" isface="1"></li>
+										<li><img src="img/face/【df生病】.gif" title="【df生病】" isface="1"></li>
+										<li><img src="img/face/【df太开心】.gif" title="【df太开心】" isface="1"></li>
+										<li><img src="img/face/【df懒得理你】.gif" title="【df懒得理你】" isface="1"></li>
+										<li><img src="img/face/【df右哼哼】.gif" title="【df右哼哼】" isface="1"></li>
+										<li><img src="img/face/【df左哼哼】.gif" title="【df左哼哼】" isface="1"></li>
+										<li><img src="img/face/【df嘘】.gif" title="【df嘘】" isface="1"></li>
+										<li><img src="img/face/【df衰】.gif" title="【df衰】" isface="1"></li>
+										<li><img src="img/face/【df委屈】.gif" title="【df委屈】" isface="1"></li>
+										<li><img src="img/face/【df吐】.gif" title="【df吐】" isface="1"></li>
+										<li><img src="img/face/【df打哈欠】.gif" title="【df打哈欠】" isface="1"></li>
+										<li><img src="img/face/【df抱抱】.gif" title="【df抱抱】" isface="1"></li>
+										<li><img src="img/face/【df怒】.gif" title="【df怒】" isface="1"></li>
+										<li><img src="img/face/【df疑问】.gif" title="【df疑问】" isface="1"></li>
+										<li><img src="img/face/【df馋嘴】.gif" title="【df馋嘴】" isface="1"></li>
+										<li><img src="img/face/【df拜拜】.gif" title="【df拜拜】" isface="1"></li>
+										<li><img src="img/face/【df思考】.gif" title="【df思考】" isface="1"></li>
+										<li><img src="img/face/【df汗】.gif" title="【df汗】" isface="1"></li>
+										<li><img src="img/face/【df困】.gif" title="【df困】" isface="1"></li>
+										<li><img src="img/face/【df睡觉】.gif" title="【df睡觉】" isface="1"></li>
+										<li><img src="img/face/【df钱】.gif" title="【df钱】" isface="1"></li>
+										<li><img src="img/face/【df失望】.gif" title="【df失望】" isface="1"></li>
+										<li><img src="img/face/【df酷】.gif" title="【df酷】" isface="1"></li>
+										<li><img src="img/face/【df花心】.gif" title="【df花心】" isface="1"></li>
+										<li><img src="img/face/【df哼】.gif" title="【df哼】" isface="1"></li>
+										<li><img src="img/face/【df鼓掌哈】.gif" title="【df鼓掌哈】" isface="1"></li>
+										<li><img src="img/face/【df晕】.gif" title="【df晕】" isface="1"></li>
+										<li><img src="img/face/【df悲伤】.gif" title="【df悲伤】" isface="1"></li>
+										<li><img src="img/face/【df抓狂】.gif" title="【df抓狂】" isface="1"></li>
+										<li><img src="img/face/【df黑线】.gif" title="【df黑线】" isface="1"></li>
+										<li><img src="img/face/【df阴险】.gif" title="【df阴险】" isface="1"></li>
+										<li><img src="img/face/【df怒骂】.gif" title="【df怒骂】" isface="1"></li>
+										<li><img src="img/face/【df心】.gif" title="【df心】" isface="1"></li>
+										<li><img src="img/face/【df伤心】.gif" title="【df伤心】" isface="1"></li>
+										<li><img src="img/face/【df好的】.gif" title="【df好的】" isface="1"></li>
+										<li><img src="img/face/【df耶】.gif" title="【df耶】" isface="1"></li>
+										<li><img src="img/face/【df好样的】.gif" title="【df好样的】" isface="1"></li>	
+									</ul>
+								</div>
+							</span>
+							<span class="sendCandiao">
+								发彩条
+								<div class="caitiaoWrap">
+									<div class="caitiaoBox">
+										<img src="img/face/ding.gif" onclick="sendCaidiao(this)"/>
+										<img src="img/face/zan.gif"  onclick="sendCaidiao(this)"/>
+										<img src="img/face/1.3.gif" onclick="sendCaidiao(this)"/>
+										<img src="img/face/flower.gif" onclick="sendCaidiao(this)"/>
+										<img src="img/face/1.5.gif" onclick="sendCaidiao(this)"/>
+										<img src="img/face/1.6.gif" onclick="sendCaidiao(this)"/>
+									</div>
+								</div>
+							</span>
+							<span class="clearScreen" onclick="clearScreen()">清屏幕</span>
+							<span class="changeText">
+								改字体
+								<div class="setTextWrap">
+									<div class="setTextColor">
+										<h1>选取文字颜色</h1>
+									    <ul>
+									 		<li class="white"></li>
+									 		<li class="gray"></li>
+									 		<li class="black"></li>
+									 		<li class="red"></li>
+									 		<li class="blue"></li>
+									 		<li class="yellow"></li>
+									    </ul>
+									</div>
+									<div class="setTextSize">
+										<h1>选取文字大小</h1>
+									    <ul>
+									 		<li class="s">小</li>
+									 		<li class="m">中</li>
+									 		<li class="l">大</li>
+									    </ul>
+									</div>									
+								</div>
+							</span>
+						</div>						
+					</div>
+					<!--输入框 End-->
+				</div>				
+			</div>			
+		</div>
+		<!--mask-->
+		<div class="mask"></div>
+		<!--mask End-->
+		<!--注册登录页面-->
+		<div class="RL">
+			<h1><a class="RLa_active" onclick="showLogin()">登录</a><a onclick="showRegister()">注册</a><a class="RLclosed" onclick="closeRL()"><img src="img/RLclosed.png" alt="" /></a></h1>
+			<div class="register" style="display: none;">
+				<p><span class="lefts">账号:</span><span class="rights"><input type="" name="username"  value="" /></span></p>
+				<p><span class="lefts">昵称:</span><span class="rights"><input type="" name="kidsname"  value="" /></span></p>
+				<p><span class="lefts">手机:</span><span class="rights"><input id="shouji" type="" name="mobile" value="" /><button class="huoqu">获取验证码</button></span></p>
+				<p><span class="lefts">验证码:</span><span class="rights"><input type="" name="verification" value="" /></span></p>
+				<p><span class="lefts">QQ:</span><span class="rights"><input type="" name="qq"  value="" /></span></p>
+				<p><span class="lefts">密码:</span><span class="rights"><input type="" name="passwords"  value="" /></span></p>
+				<p><span class="lefts">确认密码:</span><span class="rights"><input type="" name="repassword"  value="" /></span></p>
+				<p class="registerP"><button class="rlBtn" onclick="register()">注册</button></p>
+			</div>
+			<div class="login">
+				<div><h2>账号:</h2><input class="loginName" type="text" name="loginName"/></div>
+				<div><h2>密码:</h2><input class="loginPwd" type="text" name="loginPwd"/></div>
+				<p class="registerP"><button class="rlBtn" onclick="login()">登录</button></p>
+			</div>
+			<span class="Rltip"></span>
+		</div>
+		<!--注册登录页面 End-->
+		<!--20分钟提示框-->
+		<div class="tip20">
+			<button onclick="showLogin()">报上名去</button>
+			<button onclick="closeRL()">朕去看看</button>
+		</div>
+		<!--20分钟提示框 End-->
+		<!--未注册vip服务-->
+		<div class="vipsurice1">
+			<button onclick="showLogin()">我也要享受</button>
+			<button onclick="closeRL()">再游客一会</button>			
+		</div>
+		<!--未注册vip服务-->
+		<!--已注册vip服务-->
+		<div class="vipsurice2">
+			<a href="https://www.baidu.com/" target="_blank" onclick="closeRL()">点击领取</a>
+		</div>
+		<!--已注册vip服务 End-->		
+		<!--行情软件 -->
+		<div class="marketSoft">
+			<h1 class="MSh1">行情软件<a class="MSclosed" onclick="closeRL()"><img src="img/closed_kechen.jpg" alt="" /></a></h1>
+			<div class="kanHJ">
+				<h2 class="kan">看黄金</h2>
+				<img src="img/lx.png"/>
+				<p class="kanp">
+					<a href="" target="_blank" onclick="closeRL()">黄金行情</a>
+				</p>
+			</div>
+			<div class="kanGP">
+				<h2 class="kan">看股票</h2>
+				<img src="img/tz.png"/>
+				<img src="img/lt.png"/>
+				<p class="kanp">
+					<a href="" target="_blank" onclick="closeRL()">投资保姆</a>
+					<a href="" target="_blank" onclick="closeRL()">99乐投</a>
+				</p>
+			</div>			
+		</div>
+		<!--行情软件End-->	
+		<!--开户挣钱-->
+		<div class="earnMoney">
+			<h1 class="MSh1">开户挣钱<a class="MSclosed" onclick="closeRL()"><img src="img/closed_kechen.jpg" alt="" /></a></h1>
+			<img class="earnMoneyIMG" src="img/gp.jpg" alt="" />
+			<img class="earnMoneyIMG" src="img/hj.jpg" alt="" />
+			<p>
+				<a href="" target="_blank" onclick="closeRL()">股票开户 </a>
+				<a href="" target="_blank" onclick="closeRL()">黄金开户</a>
+			</p>
+		</div>
+		<!--开户挣钱 End-->
+		<!--课程表-->
+		<div class="schedule">
+			<h1 class="MSh1">谈股论金直播间课程安排 <a class="MSclosed" onclick="closeRL()"><img src="img/closed_kechen.jpg" alt="" /></a></h1>
+			<h2><span class="sch1">讲课时间</span><span class="sch2">主讲老师</span><span class="sch3">课程主题</span></h2>
+			<ul class="scheduleUl">
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+				<li><span class="sch1">09:00-10:00 </span><span class="sch2">建霖老师</span><span class="sch3">期货学前班</span></li>
+			</ul>
+		</div>
+		<!--课程表 End-->
+	</body>
+	<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.nicescroll.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/interaction.js" type="text/javascript" charset="utf-8"></script>
+</html>
